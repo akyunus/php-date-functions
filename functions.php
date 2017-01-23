@@ -17,5 +17,6 @@ function buay_kac_gun(){
   return ay_kac_gun($yil,$ay);
 }  
 
-echo hangi_gun('2017/01/23');
-echo ay_kac_gun(2015,1);
+echo '23 Ocak 2017 tarihi '.hangi_gun('2017/01/23').' gününe denk gelir.<br>';;
+echo '2016 yılı Şubat ayı '.ay_kac_gun(2016,2).' gün çeker.<br>';
+echo 'Şuan içinde bulunduğumuz ay '.buay_kac_gun().' gün çeker.<br>';
